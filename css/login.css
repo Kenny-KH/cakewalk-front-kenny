@@ -46,8 +46,7 @@ body {
 
 .naver_login {
     width: 60%;
-    height: 3rem;
-    background-color: #2db400;
+    height: auto;
     align-items: center;
     justify-content: center;
     margin-bottom: 1rem;
@@ -55,25 +54,11 @@ body {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-}
-
-.facebook_login {
-    width: 60%;
-    height: 3rem;
-    background-color: #3b5998;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 1rem;
-    color: white;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
+    cursor: pointer;
 }
 
 .google_login {
-    width: 60%;
-    height: 3rem;
-    background-color: #4285f4;
+    width: 62%;
     align-items: center;
     justify-content: center;
     margin-bottom: 1rem;
@@ -81,19 +66,25 @@ body {
     display: flex;
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
 }
 
 .kakao_login {
     width: 60%;
-    height: 3rem;
-    background-color: #f9e000;
     align-items: center;
     justify-content: center;
     margin-bottom: 1rem;
     display: flex;
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
 }
+
+.fb-login-button {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 .without_login_box {
     display: flex;
